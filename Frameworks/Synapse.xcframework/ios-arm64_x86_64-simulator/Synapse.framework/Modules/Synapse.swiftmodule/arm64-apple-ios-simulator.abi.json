@@ -1,0 +1,4444 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Synapse",
+    "printedName": "Synapse",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationPermissionAlert",
+        "printedName": "LocationPermissionAlert",
+        "declKind": "Class",
+        "usr": "s:7Synapse23LocationPermissionAlertC",
+        "mangledName": "$s7Synapse23LocationPermissionAlertC",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInfo",
+        "printedName": "DeviceInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentLocation",
+            "printedName": "currentLocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Synapse.DeviceInfo.Type) -> (Any) -> Synapse.DeviceInfo",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any) -> Synapse.DeviceInfo",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceInfo",
+                        "printedName": "Synapse.DeviceInfo",
+                        "usr": "s:7Synapse10DeviceInfoO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(data: Any)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Synapse.DeviceInfo.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceInfo",
+                        "printedName": "Synapse.DeviceInfo",
+                        "usr": "s:7Synapse10DeviceInfoO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Synapse10DeviceInfoO15currentLocationyACyp_tcACmF",
+            "mangledName": "$s7Synapse10DeviceInfoO15currentLocationyACyp_tcACmF",
+            "moduleName": "Synapse"
+          },
+          {
+            "kind": "Function",
+            "name": "getEndPoint",
+            "printedName": "getEndPoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10DeviceInfoO11getEndPointSSSgyF",
+            "mangledName": "$s7Synapse10DeviceInfoO11getEndPointSSSgyF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Synapse10DeviceInfoO",
+        "mangledName": "$s7Synapse10DeviceInfoO",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BridgeSendMessageProtocol",
+            "printedName": "BridgeSendMessageProtocol",
+            "usr": "s:7Synapse25BridgeSendMessageProtocolP",
+            "mangledName": "$s7Synapse25BridgeSendMessageProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInfoDelegate",
+        "printedName": "DeviceInfoDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:sendCoordinates:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse18DeviceInfoDelegateP10webKitView4view15sendCoordinatesyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse18DeviceInfoDelegateP10webKitView4view15sendCoordinatesyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.DeviceInfoDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.DeviceInfoDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:sendCoordinates:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse18DeviceInfoDelegatePAAE10webKitView4view15sendCoordinatesyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse18DeviceInfoDelegatePAAE10webKitView4view15sendCoordinatesyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.DeviceInfoDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.DeviceInfoDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse18DeviceInfoDelegateP",
+        "mangledName": "$s7Synapse18DeviceInfoDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyDecodable",
+        "printedName": "AnyDecodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Synapse12AnyDecodableV5valueypvp",
+            "mangledName": "$s7Synapse12AnyDecodableV5valueypvp",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse12AnyDecodableV5valueypvg",
+                "mangledName": "$s7Synapse12AnyDecodableV5valueypvg",
+                "moduleName": "Synapse",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyDecodable",
+                "printedName": "Synapse.AnyDecodable",
+                "usr": "s:7Synapse12AnyDecodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Synapse12AnyDecodableVyACxSgclufc",
+            "mangledName": "$s7Synapse12AnyDecodableVyACxSgclufc",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyDecodable",
+                "printedName": "Synapse.AnyDecodable",
+                "usr": "s:7Synapse12AnyDecodableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyDecodable",
+                "printedName": "Synapse.AnyDecodable",
+                "usr": "s:7Synapse12AnyDecodableV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse12AnyDecodableV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7Synapse12AnyDecodableV2eeoiySbAC_ACtFZ",
+            "moduleName": "Synapse",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Synapse12AnyDecodableV11descriptionSSvp",
+            "mangledName": "$s7Synapse12AnyDecodableV11descriptionSSvp",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse12AnyDecodableV11descriptionSSvg",
+                "mangledName": "$s7Synapse12AnyDecodableV11descriptionSSvg",
+                "moduleName": "Synapse",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Synapse12AnyDecodableV16debugDescriptionSSvp",
+            "mangledName": "$s7Synapse12AnyDecodableV16debugDescriptionSSvp",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse12AnyDecodableV16debugDescriptionSSvg",
+                "mangledName": "$s7Synapse12AnyDecodableV16debugDescriptionSSvg",
+                "moduleName": "Synapse",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse12AnyDecodableV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7Synapse12AnyDecodableV4hash4intoys6HasherVz_tF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Synapse12AnyDecodableV9hashValueSivp",
+            "mangledName": "$s7Synapse12AnyDecodableV9hashValueSivp",
+            "moduleName": "Synapse",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse12AnyDecodableV9hashValueSivg",
+                "mangledName": "$s7Synapse12AnyDecodableV9hashValueSivg",
+                "moduleName": "Synapse",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Synapse12AnyDecodableV",
+        "mangledName": "$s7Synapse12AnyDecodableV",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_AnyDecodable",
+            "printedName": "_AnyDecodable",
+            "usr": "s:7Synapse13_AnyDecodableP",
+            "mangledName": "$s7Synapse13_AnyDecodableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_AnyDecodable",
+        "printedName": "_AnyDecodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Synapse13_AnyDecodableP5valueypvp",
+            "mangledName": "$s7Synapse13_AnyDecodableP5valueypvp",
+            "moduleName": "Synapse",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse13_AnyDecodableP5valueypvg",
+                "mangledName": "$s7Synapse13_AnyDecodableP5valueypvg",
+                "moduleName": "Synapse",
+                "genericSig": "<τ_0_0 where τ_0_0 : Synapse._AnyDecodable>",
+                "sugared_genericSig": "<Self where Self : Synapse._AnyDecodable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Synapse13_AnyDecodablePyxqd__Sgclufc",
+            "mangledName": "$s7Synapse13_AnyDecodablePyxqd__Sgclufc",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Synapse._AnyDecodable>",
+            "sugared_genericSig": "<Self, T where Self : Synapse._AnyDecodable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Synapse13_AnyDecodablePAAE4fromxs7Decoder_p_tKcfc",
+            "mangledName": "$s7Synapse13_AnyDecodablePAAE4fromxs7Decoder_p_tKcfc",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse._AnyDecodable>",
+            "sugared_genericSig": "<Self where Self : Synapse._AnyDecodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse13_AnyDecodableP",
+        "mangledName": "$s7Synapse13_AnyDecodableP",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "UsableFromInline"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebNavigator",
+        "printedName": "WebNavigator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "open",
+            "printedName": "open",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Synapse.WebNavigator.Type) -> (Any) -> Synapse.WebNavigator",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any) -> Synapse.WebNavigator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebNavigator",
+                        "printedName": "Synapse.WebNavigator",
+                        "usr": "s:7Synapse12WebNavigatorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(data: Any)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Synapse.WebNavigator.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebNavigator",
+                        "printedName": "Synapse.WebNavigator",
+                        "usr": "s:7Synapse12WebNavigatorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Synapse12WebNavigatorO4openyACyp_tcACmF",
+            "mangledName": "$s7Synapse12WebNavigatorO4openyACyp_tcACmF",
+            "moduleName": "Synapse"
+          },
+          {
+            "kind": "Function",
+            "name": "getEndPoint",
+            "printedName": "getEndPoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse12WebNavigatorO11getEndPointSSSgyF",
+            "mangledName": "$s7Synapse12WebNavigatorO11getEndPointSSSgyF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Synapse12WebNavigatorO",
+        "mangledName": "$s7Synapse12WebNavigatorO",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BridgeSendMessageProtocol",
+            "printedName": "BridgeSendMessageProtocol",
+            "usr": "s:7Synapse25BridgeSendMessageProtocolP",
+            "mangledName": "$s7Synapse25BridgeSendMessageProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PostMessageBridgeDelegate",
+        "printedName": "PostMessageBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:postMessageBridgeCalledWith:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25PostMessageBridgeDelegateP10webKitView4view04postcD10CalledWith4datayAA03WebgH0C_SSSDySSypGSgtF",
+            "mangledName": "$s7Synapse25PostMessageBridgeDelegateP10webKitView4view04postcD10CalledWith4datayAA03WebgH0C_SSSDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.PostMessageBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.PostMessageBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse25PostMessageBridgeDelegateP",
+        "mangledName": "$s7Synapse25PostMessageBridgeDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavigatorBridgeDelegate",
+        "printedName": "NavigatorBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnOpenWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC10OnOpenWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC10OnOpenWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnCloseWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC11OnCloseWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC11OnCloseWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnBackWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC10OnBackWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC10OnBackWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnReloadWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC12OnReloadWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC12OnReloadWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnOpenInNewTask:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC15OnOpenInNewTaskyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC15OnOpenInNewTaskyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnOpenPdf:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC9OnOpenPdfyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegateP10webKitView4view09navigatorC9OnOpenPdfyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnOpenWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC10OnOpenWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC10OnOpenWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnCloseWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC11OnCloseWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC11OnCloseWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnBackWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC10OnBackWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC10OnBackWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnReloadWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC12OnReloadWithyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC12OnReloadWithyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnOpenInNewTask:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC15OnOpenInNewTaskyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC15OnOpenInNewTaskyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:navigatorBridgeOnOpenPdf:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC9OnOpenPdfyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse23NavigatorBridgeDelegatePAAE10webKitView4view09navigatorC9OnOpenPdfyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.NavigatorBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.NavigatorBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse23NavigatorBridgeDelegateP",
+        "mangledName": "$s7Synapse23NavigatorBridgeDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebKitViewNavigationProtocol",
+        "printedName": "WebKitViewNavigationProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:onCanGoBackChangedTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse28WebKitViewNavigationProtocolP03webcD04view20onCanGoBackChangedToyAA0bcD0C_SbtF",
+            "mangledName": "$s7Synapse28WebKitViewNavigationProtocolP03webcD04view20onCanGoBackChangedToyAA0bcD0C_SbtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.WebKitViewNavigationProtocol>",
+            "sugared_genericSig": "<Self where Self : Synapse.WebKitViewNavigationProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:onUrlChangedTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse28WebKitViewNavigationProtocolP03webcD04view14onUrlChangedToyAA0bcD0C_10Foundation3URLVtF",
+            "mangledName": "$s7Synapse28WebKitViewNavigationProtocolP03webcD04view14onUrlChangedToyAA0bcD0C_10Foundation3URLVtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.WebKitViewNavigationProtocol>",
+            "sugared_genericSig": "<Self where Self : Synapse.WebKitViewNavigationProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse28WebKitViewNavigationProtocolP",
+        "mangledName": "$s7Synapse28WebKitViewNavigationProtocolP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebKitView",
+        "printedName": "WebKitView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "webKitNaviagtionDelegate",
+            "printedName": "webKitNaviagtionDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Synapse.WebKitViewNavigationProtocol)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvp",
+            "mangledName": "$s7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvp",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Synapse.WebKitViewNavigationProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebKitViewNavigationProtocol",
+                        "printedName": "any Synapse.WebKitViewNavigationProtocol",
+                        "usr": "s:7Synapse28WebKitViewNavigationProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvg",
+                "mangledName": "$s7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvg",
+                "moduleName": "Synapse",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Synapse.WebKitViewNavigationProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebKitViewNavigationProtocol",
+                        "printedName": "any Synapse.WebKitViewNavigationProtocol",
+                        "usr": "s:7Synapse28WebKitViewNavigationProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvs",
+                "mangledName": "$s7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvs",
+                "moduleName": "Synapse",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvM",
+                "mangledName": "$s7Synapse10WebKitViewC03webC18NaviagtionDelegateAA0bcD18NavigationProtocol_pSgvM",
+                "moduleName": "Synapse",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:bridges:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : any Synapse.BridgeResolverProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BridgeResolverProtocol",
+                    "printedName": "any Synapse.BridgeResolverProtocol",
+                    "usr": "s:7Synapse22BridgeResolverProtocolP"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Synapse10WebKitViewC5frame13configuration7bridgesACSo6CGRectV_So05WKWebD13ConfigurationCSDySSAA22BridgeResolverProtocol_pGtcfc",
+            "mangledName": "$s7Synapse10WebKitViewC5frame13configuration7bridgesACSo6CGRectV_So05WKWebD13ConfigurationCSDySSAA22BridgeResolverProtocol_pGtcfc",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Synapse@objc(cs)WebKitView(im)initWithFrame:configuration:",
+            "mangledName": "$s7Synapse10WebKitViewC5frame13configurationACSo6CGRectV_So05WKWebD13ConfigurationCtcfc",
+            "moduleName": "Synapse",
+            "overriding": true,
+            "objc_name": "initWithFrame:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Synapse.WebKitView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebKitView",
+                    "printedName": "Synapse.WebKitView",
+                    "usr": "c:@M@Synapse@objc(cs)WebKitView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Synapse@objc(cs)WebKitView(im)initWithCoder:",
+            "mangledName": "$s7Synapse10WebKitViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Synapse",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Synapse@objc(cs)WebKitView(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s7Synapse10WebKitViewC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyf6ChangeH0aypGSgSvSgtF",
+            "moduleName": "Synapse",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNavigatorBridgeDelegate",
+            "printedName": "setNavigatorBridgeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Synapse.NavigatorBridgeDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavigatorBridgeDelegate",
+                    "printedName": "any Synapse.NavigatorBridgeDelegate",
+                    "usr": "s:7Synapse23NavigatorBridgeDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC26setNavigatorBridgeDelegateyyAA0fgH0_pSgF",
+            "mangledName": "$s7Synapse10WebKitViewC26setNavigatorBridgeDelegateyyAA0fgH0_pSgF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPostMessageBridgeDelegate",
+            "printedName": "setPostMessageBridgeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PostMessageBridgeDelegate",
+                "printedName": "any Synapse.PostMessageBridgeDelegate",
+                "usr": "s:7Synapse25PostMessageBridgeDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC28setPostMessageBridgeDelegateyyAA0fghI0_pF",
+            "mangledName": "$s7Synapse10WebKitViewC28setPostMessageBridgeDelegateyyAA0fghI0_pF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInteractionBridgeDelegate",
+            "printedName": "setInteractionBridgeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InteractionBridgeDelegate",
+                "printedName": "any Synapse.InteractionBridgeDelegate",
+                "usr": "s:7Synapse25InteractionBridgeDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC28setInteractionBridgeDelegateyyAA0fgH0_pF",
+            "mangledName": "$s7Synapse10WebKitViewC28setInteractionBridgeDelegateyyAA0fgH0_pF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setToolbarBridgeDelegate",
+            "printedName": "setToolbarBridgeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToolbarBridgeDelegate",
+                "printedName": "any Synapse.ToolbarBridgeDelegate",
+                "usr": "s:7Synapse21ToolbarBridgeDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC24setToolbarBridgeDelegateyyAA0fgH0_pF",
+            "mangledName": "$s7Synapse10WebKitViewC24setToolbarBridgeDelegateyyAA0fgH0_pF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStateBridgeDelegate",
+            "printedName": "setStateBridgeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StateBridgeDelegate",
+                "printedName": "any Synapse.StateBridgeDelegate",
+                "usr": "s:7Synapse19StateBridgeDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC22setStateBridgeDelegateyyAA0fgH0_pF",
+            "mangledName": "$s7Synapse10WebKitViewC22setStateBridgeDelegateyyAA0fgH0_pF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeviceInfoBridgeDelegate",
+            "printedName": "setDeviceInfoBridgeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfoDelegate",
+                "printedName": "any Synapse.DeviceInfoDelegate",
+                "usr": "s:7Synapse18DeviceInfoDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC27setDeviceInfoBridgeDelegateyyAA0fgI0_pF",
+            "mangledName": "$s7Synapse10WebKitViewC27setDeviceInfoBridgeDelegateyyAA0fgI0_pF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMessage",
+            "printedName": "sendMessage(type:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BridgeSendMessageProtocol",
+                "printedName": "any Synapse.BridgeSendMessageProtocol",
+                "usr": "s:7Synapse25BridgeSendMessageProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Any?, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse10WebKitViewC11sendMessage4type10completionyAA010BridgeSendF8Protocol_p_yypSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s7Synapse10WebKitViewC11sendMessage4type10completionyAA010BridgeSendF8Protocol_p_yypSg_s5Error_pSgtcSgtF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Synapse@objc(cs)WebKitView",
+        "mangledName": "$s7Synapse10WebKitViewC",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)WKWebView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "WebKit.WKWebView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InteractionBridgeDelegate",
+        "printedName": "InteractionBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:copyToClipboard:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25InteractionBridgeDelegateP10webKitView4view15copyToClipboardyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse25InteractionBridgeDelegateP10webKitView4view15copyToClipboardyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.InteractionBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.InteractionBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:allowsBackForwardNavigationGestures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25InteractionBridgeDelegateP10webKitView4view35allowsBackForwardNavigationGesturesyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse25InteractionBridgeDelegateP10webKitView4view35allowsBackForwardNavigationGesturesyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.InteractionBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.InteractionBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:showToastMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25InteractionBridgeDelegateP10webKitView4view16showToastMessageyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse25InteractionBridgeDelegateP10webKitView4view16showToastMessageyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.InteractionBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.InteractionBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:copyToClipboard:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25InteractionBridgeDelegatePAAE10webKitView4view15copyToClipboardyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse25InteractionBridgeDelegatePAAE10webKitView4view15copyToClipboardyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.InteractionBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.InteractionBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:allowsBackForwardNavigationGestures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25InteractionBridgeDelegatePAAE10webKitView4view35allowsBackForwardNavigationGesturesyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse25InteractionBridgeDelegatePAAE10webKitView4view35allowsBackForwardNavigationGesturesyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.InteractionBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.InteractionBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:showToastMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25InteractionBridgeDelegatePAAE10webKitView4view16showToastMessageyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse25InteractionBridgeDelegatePAAE10webKitView4view16showToastMessageyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.InteractionBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.InteractionBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse25InteractionBridgeDelegateP",
+        "mangledName": "$s7Synapse25InteractionBridgeDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebState",
+        "printedName": "WebState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "active",
+            "printedName": "active",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Synapse.WebState.Type) -> (Swift.Bool) -> Synapse.WebState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> Synapse.WebState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebState",
+                        "printedName": "Synapse.WebState",
+                        "usr": "s:7Synapse8WebStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Synapse.WebState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebState",
+                        "printedName": "Synapse.WebState",
+                        "usr": "s:7Synapse8WebStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Synapse8WebStateO6activeyACSbcACmF",
+            "mangledName": "$s7Synapse8WebStateO6activeyACSbcACmF",
+            "moduleName": "Synapse"
+          },
+          {
+            "kind": "Function",
+            "name": "getEndPoint",
+            "printedName": "getEndPoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse8WebStateO11getEndPointSSSgyF",
+            "mangledName": "$s7Synapse8WebStateO11getEndPointSSSgyF",
+            "moduleName": "Synapse",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Synapse8WebStateO",
+        "mangledName": "$s7Synapse8WebStateO",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BridgeSendMessageProtocol",
+            "printedName": "BridgeSendMessageProtocol",
+            "usr": "s:7Synapse25BridgeSendMessageProtocolP",
+            "mangledName": "$s7Synapse25BridgeSendMessageProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToolbarBridgeDelegate",
+        "printedName": "ToolbarBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:hideToolbar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse21ToolbarBridgeDelegateP10webKitView4view04hideB0yAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse21ToolbarBridgeDelegateP10webKitView4view04hideB0yAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.ToolbarBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.ToolbarBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:showToolbar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse21ToolbarBridgeDelegateP10webKitView4view04showB0yAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse21ToolbarBridgeDelegateP10webKitView4view04showB0yAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.ToolbarBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.ToolbarBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:setToolbar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse21ToolbarBridgeDelegateP10webKitView4view03setB0yAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse21ToolbarBridgeDelegateP10webKitView4view03setB0yAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.ToolbarBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.ToolbarBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:hideToolbar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse21ToolbarBridgeDelegatePAAE10webKitView4view04hideB0yAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse21ToolbarBridgeDelegatePAAE10webKitView4view04hideB0yAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.ToolbarBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.ToolbarBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:showToolbar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse21ToolbarBridgeDelegatePAAE10webKitView4view04showB0yAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse21ToolbarBridgeDelegatePAAE10webKitView4view04showB0yAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.ToolbarBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.ToolbarBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:setToolbar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse21ToolbarBridgeDelegatePAAE10webKitView4view03setB0yAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse21ToolbarBridgeDelegatePAAE10webKitView4view03setB0yAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.ToolbarBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.ToolbarBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse21ToolbarBridgeDelegateP",
+        "mangledName": "$s7Synapse21ToolbarBridgeDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Synapse"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoggerBridgeDelegate",
+        "printedName": "LoggerBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:onInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse20LoggerBridgeDelegateP10webKitView4view6onInfoyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse20LoggerBridgeDelegateP10webKitView4view6onInfoyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.LoggerBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.LoggerBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse20LoggerBridgeDelegateP10webKitView4view7onErroryAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse20LoggerBridgeDelegateP10webKitView4view7onErroryAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.LoggerBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.LoggerBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:onInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse20LoggerBridgeDelegatePAAE10webKitView4view6onInfoyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse20LoggerBridgeDelegatePAAE10webKitView4view6onInfoyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.LoggerBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.LoggerBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse20LoggerBridgeDelegatePAAE10webKitView4view7onErroryAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse20LoggerBridgeDelegatePAAE10webKitView4view7onErroryAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.LoggerBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.LoggerBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse20LoggerBridgeDelegateP",
+        "mangledName": "$s7Synapse20LoggerBridgeDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BridgeResolverProtocol",
+        "printedName": "BridgeResolverProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(type:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse22BridgeResolverProtocolP7resolve4type4withySS_SDySSypGSgtF",
+            "mangledName": "$s7Synapse22BridgeResolverProtocolP7resolve4type4withySS_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.BridgeResolverProtocol>",
+            "sugared_genericSig": "<Self where Self : Synapse.BridgeResolverProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse22BridgeResolverProtocolP",
+        "mangledName": "$s7Synapse22BridgeResolverProtocolP",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BridgeSendMessageProtocol",
+        "printedName": "BridgeSendMessageProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getEndPoint",
+            "printedName": "getEndPoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse25BridgeSendMessageProtocolP11getEndPointSSSgyF",
+            "mangledName": "$s7Synapse25BridgeSendMessageProtocolP11getEndPointSSSgyF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.BridgeSendMessageProtocol>",
+            "sugared_genericSig": "<Self where Self : Synapse.BridgeSendMessageProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse25BridgeSendMessageProtocolP",
+        "mangledName": "$s7Synapse25BridgeSendMessageProtocolP",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Synapse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StateBridgeDelegate",
+        "printedName": "StateBridgeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:loaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse19StateBridgeDelegateP10webKitView4view6loadedyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse19StateBridgeDelegateP10webKitView4view6loadedyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.StateBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.StateBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:contentLoaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse19StateBridgeDelegateP10webKitView4view13contentLoadedyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse19StateBridgeDelegateP10webKitView4view13contentLoadedyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.StateBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.StateBridgeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:loaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse19StateBridgeDelegatePAAE10webKitView4view6loadedyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse19StateBridgeDelegatePAAE10webKitView4view6loadedyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.StateBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.StateBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webKitView",
+            "printedName": "webKitView(view:contentLoaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebKitView",
+                "printedName": "Synapse.WebKitView",
+                "usr": "c:@M@Synapse@objc(cs)WebKitView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Synapse19StateBridgeDelegatePAAE10webKitView4view13contentLoadedyAA03WebfG0C_SDySSypGSgtF",
+            "mangledName": "$s7Synapse19StateBridgeDelegatePAAE10webKitView4view13contentLoadedyAA03WebfG0C_SDySSypGSgtF",
+            "moduleName": "Synapse",
+            "genericSig": "<τ_0_0 where τ_0_0 : Synapse.StateBridgeDelegate>",
+            "sugared_genericSig": "<Self where Self : Synapse.StateBridgeDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Synapse19StateBridgeDelegateP",
+        "mangledName": "$s7Synapse19StateBridgeDelegateP",
+        "moduleName": "Synapse",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/DeviceLocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 27,
+      "value": "\"Unable to detect location\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/DeviceLocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 28,
+      "value": "\"Location Permission Denied\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/DeviceLocationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1177,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/DeviceLocationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1304,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 23,
+      "value": "\"Allow location access\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 115,
+      "value": "\"Uses your location to enhance your experience, ensuring you only see products and services available in your area\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 16,
+      "value": "\"Go to settings\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 9,
+      "value": "\"Not now\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/LocationPermissionAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 13,
+      "value": "\"deviceInfo.\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/Navigator.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 12,
+      "value": "\"navigator.\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeHandler.swift",
+      "kind": "Dictionary",
+      "offset": 260,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeClasses\/State.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 8,
+      "value": "\"state.\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 7,
+      "value": "\"allow\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Documents\/synapse-ios\/Synapse\/WebKit\/BridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 30,
+      "value": "\"window.synapse.WebCallbacks.\""
+    }
+  ]
+}

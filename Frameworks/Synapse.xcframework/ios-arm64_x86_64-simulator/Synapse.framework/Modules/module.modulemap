@@ -1,0 +1,11 @@
+framework module Synapse {
+  umbrella header "Synapse.h"
+  export *
+
+  module * { export * }
+}
+
+module Synapse.Swift {
+  header "Synapse-Swift.h"
+  requires objc
+}

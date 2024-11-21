@@ -1,0 +1,147 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Synapse
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreLocation
+import Foundation
+import Swift
+@_exported import Synapse
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class LocationPermissionAlert {
+  @objc deinit
+}
+public enum DeviceInfo : Synapse.BridgeSendMessageProtocol {
+  case currentLocation(data: Any)
+  public func getEndPoint() -> Swift.String?
+}
+public protocol DeviceInfoDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, sendCoordinates data: [Swift.String : Any]?)
+}
+extension Synapse.DeviceInfoDelegate {
+  public func webKitView(view: Synapse.WebKitView, sendCoordinates data: [Swift.String : Any]?)
+}
+@frozen public struct AnyDecodable : Swift.Decodable {
+  public let value: Any
+  public init<T>(_ value: T?)
+}
+@usableFromInline
+internal protocol _AnyDecodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension Synapse.AnyDecodable : Synapse._AnyDecodable {
+}
+extension Synapse._AnyDecodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Synapse.AnyDecodable : Swift.Equatable {
+  public static func == (lhs: Synapse.AnyDecodable, rhs: Synapse.AnyDecodable) -> Swift.Bool
+}
+extension Synapse.AnyDecodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Synapse.AnyDecodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension Synapse.AnyDecodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum WebNavigator : Synapse.BridgeSendMessageProtocol {
+  case open(data: Any)
+  public func getEndPoint() -> Swift.String?
+}
+public protocol PostMessageBridgeDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, postMessageBridgeCalledWith type: Swift.String, data: [Swift.String : Any]?)
+}
+public protocol NavigatorBridgeDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, navigatorBridgeOnOpenWith data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, navigatorBridgeOnCloseWith data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, navigatorBridgeOnBackWith data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, navigatorBridgeOnReloadWith data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, navigatorBridgeOnOpenInNewTask data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, navigatorBridgeOnOpenPdf data: [Swift.String : Any]?)
+}
+extension Synapse.NavigatorBridgeDelegate {
+  public func webKitView(view: Synapse.WebKitView, navigatorBridgeOnOpenWith data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, navigatorBridgeOnCloseWith data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, navigatorBridgeOnBackWith data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, navigatorBridgeOnReloadWith data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, navigatorBridgeOnOpenInNewTask data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, navigatorBridgeOnOpenPdf data: [Swift.String : Any]?)
+}
+public protocol WebKitViewNavigationProtocol : AnyObject {
+  func webKitView(view: Synapse.WebKitView, onCanGoBackChangedTo value: Swift.Bool)
+  func webKitView(view: Synapse.WebKitView, onUrlChangedTo value: Foundation.URL)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class WebKitView : WebKit.WKWebView {
+  @_Concurrency.MainActor @preconcurrency weak final public var webKitNaviagtionDelegate: (any Synapse.WebKitViewNavigationProtocol)?
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, bridges: [Swift.String : any Synapse.BridgeResolverProtocol])
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency final public func setNavigatorBridgeDelegate(_ delegate: (any Synapse.NavigatorBridgeDelegate)?)
+  @_Concurrency.MainActor @preconcurrency final public func setPostMessageBridgeDelegate(_ delegate: any Synapse.PostMessageBridgeDelegate)
+  @_Concurrency.MainActor @preconcurrency final public func setInteractionBridgeDelegate(_ delegate: any Synapse.InteractionBridgeDelegate)
+  @_Concurrency.MainActor @preconcurrency final public func setToolbarBridgeDelegate(_ delegate: any Synapse.ToolbarBridgeDelegate)
+  @_Concurrency.MainActor @preconcurrency final public func setStateBridgeDelegate(_ delegate: any Synapse.StateBridgeDelegate)
+  @_Concurrency.MainActor @preconcurrency final public func setDeviceInfoBridgeDelegate(_ delegate: any Synapse.DeviceInfoDelegate)
+  @_Concurrency.MainActor @preconcurrency final public func sendMessage(type: any Synapse.BridgeSendMessageProtocol, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc deinit
+}
+public protocol InteractionBridgeDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, copyToClipboard data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, allowsBackForwardNavigationGestures data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, showToastMessage data: [Swift.String : Any]?)
+}
+extension Synapse.InteractionBridgeDelegate {
+  public func webKitView(view: Synapse.WebKitView, copyToClipboard data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, allowsBackForwardNavigationGestures data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, showToastMessage data: [Swift.String : Any]?)
+}
+public enum WebState : Synapse.BridgeSendMessageProtocol {
+  case active(Swift.Bool)
+  public func getEndPoint() -> Swift.String?
+}
+public protocol ToolbarBridgeDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, hideToolbar data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, showToolbar data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, setToolbar data: [Swift.String : Any]?)
+}
+extension Synapse.ToolbarBridgeDelegate {
+  public func webKitView(view: Synapse.WebKitView, hideToolbar data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, showToolbar data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, setToolbar data: [Swift.String : Any]?)
+}
+public protocol LoggerBridgeDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, onInfo data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, onError data: [Swift.String : Any]?)
+}
+extension Synapse.LoggerBridgeDelegate {
+  public func webKitView(view: Synapse.WebKitView, onInfo data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, onError data: [Swift.String : Any]?)
+}
+public protocol BridgeResolverProtocol {
+  func resolve(type: Swift.String, with data: [Swift.String : Any]?)
+}
+public protocol BridgeSendMessageProtocol {
+  func getEndPoint() -> Swift.String?
+}
+public protocol StateBridgeDelegate : AnyObject {
+  func webKitView(view: Synapse.WebKitView, loaded data: [Swift.String : Any]?)
+  func webKitView(view: Synapse.WebKitView, contentLoaded data: [Swift.String : Any]?)
+}
+extension Synapse.StateBridgeDelegate {
+  public func webKitView(view: Synapse.WebKitView, loaded data: [Swift.String : Any]?)
+  public func webKitView(view: Synapse.WebKitView, contentLoaded data: [Swift.String : Any]?)
+}
