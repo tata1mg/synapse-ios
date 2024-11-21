@@ -1,0 +1,21 @@
+name: lint
+
+on:
+  push:
+    branches:
+      - '*'
+jobs:
+  build:
+    name: Lint
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+    
+      - name: Install Cocoapods
+        run: gem install cocoapods
+      
+      - name: Deploy to Cocoapods
+        run: |
+          pod lib lint --verbose
