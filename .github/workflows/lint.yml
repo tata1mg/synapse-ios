@@ -18,5 +18,4 @@ jobs:
       
       - name: Deploy to Cocoapods
         run: |
-          set -eo pipefail
-          pod lib lint
+          pod lib lint --verbose
